@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Connected Starters</title>
+
+    <!-- Bootstrap 5 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        header {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+        }
+
+        .nav-link {
+            font-weight: 500;
+        }
+
+        /* Gør logoet rundt */
+        .logo-round {
+            height: 55px;
+            width: 55px;
+            object-fit: cover;
+            border-radius: 50%;
+        }
+
+        footer a {
+            text-decoration: none;
+            color: inherit;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- ========================================= -->
+<!-- HEADER / NAVIGATION -->
+<!-- ========================================= -->
+<header class="bg-primary py-3 shadow-sm">
+    <nav class="container d-flex justify-content-between align-items-center">
+
+        <!-- Rundt Logo -->
+        <a href="index.html" class="d-flex align-items-center text-white text-decoration-none">
+            <img src="images/logo.png" alt="Connected Starters Logo" class="logo-round">
+        </a>
+
+        <!-- Navigation -->
+        <ul class="nav">
+            <li class="nav-item">
+                <a class="nav-link text-white" href="coaching.html">Coaching</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="networking.html">Networking</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="workshops.html">Workshops</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="tilmelding.html">Tilmelding</a>
+            </li>
+        </ul>
+
+    </nav>
+</header>
+
+<!-- ========================================= -->
+<!-- MAIN CONTENT -->
+<!-- ========================================= -->
+<main class="container my-5">
+
+    <section>
+        <h1 class="fw-bold">Velkommen til Connected Starters</h1>
+        <p class="lead mt-3">
+            Zealands fællesskab for idéudvikling, innovation og iværksætteri.
+        </p>
+        <p>
+            Her får du muligheden for at udvikle dine idéer, styrke dine kompetencer og blive en del af et inspirerende 
+            netværk på tværs af uddannelser og studieretninger.
+        </p>
+    </section>
+
+    <section class="my-4">
+        <img src="images/Connected Starters welcome.png" alt="Connected Starters Workshop" class="img-fluid rounded">
+    </section>
+
+    <section class="mt-4">
+        <p>
+            Uanset om du kommer med en konkret idé, blot er nysgerrig eller ønsker at lære nye metoder til kreative projekter, 
+            så er Connected Starters skabt for dig.
+        </p>
+
+        <p>
+            Vi tilbyder workshops, sparring, coaching og events, der hjælper dig med at komme fra tanke til handling. 
+            Vores miljøer i Slagelse, Køge og Næstved er åbne for alle studerende – du behøver ikke erfaring med innovation, kun lyst til at lære og udvikle dig.
+        </p>
+    </section>
+
+</main>
+
+<!-- ========================================= -->
+<!-- FOOTER (VENSTRE + HØJRE KOLONNE) -->
+<!-- ========================================= -->
+<footer class="bg-primary text-white py-4">
+    <div class="container">
+
+        <div class="row align-items-center">
+
+            <!-- VENSTRE SIDE – kontaktinfo -->
+            <div class="col-md-6">
+                <p class="mb-1">Lyngvej 21, Køge</p>
+                <p class="mb-1">+45 XX XX XX XX</p>
+                <p class="mb-1">ConnectedStarter@edu.zealand.dk</p>
+            </div>
+
+            <!-- HØJRE SIDE – SoMe ikoner -->
+            <div class="col-md-6 d-flex justify-content-end gap-4">
+                <a href="#" target="_blank">
+                    <img src="images/instagram.png" alt="Instagram" style="width:35px;">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="images/twitter.png" alt="Twitter" style="width:35px;">
+                </a>
+                <a href="#" target="_blank">
+                    <img src="images/facebook.png" alt="Facebook" style="width:35px;">
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
